@@ -56,6 +56,7 @@
 		A0E328E62CDB3E8000E5EEB3 /* IOSInterViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSInterViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E328EA2CDB3E8000E5EEB3 /* IOSInterViewAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSInterViewAppUITests.m; sourceTree = "<group>"; };
 		A0E328EC2CDB3E8000E5EEB3 /* IOSInterViewAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSInterViewAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A0E328FD2CDB3FBA00E5EEB3 /* git基础知识.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "git基础知识.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,8 @@
 		A0E328B52CDB3E7F00E5EEB3 = {
 			isa = PBXGroup;
 			children = (
+				A0E328FC2CDB3F8E00E5EEB3 /* Git基础知识 */,
+				A0E328FA2CDB3F5100E5EEB3 /* IOS面试准备 */,
 				A0E328C02CDB3E7F00E5EEB3 /* IOSInterViewApp */,
 				A0E328DF2CDB3E8000E5EEB3 /* IOSInterViewAppTests */,
 				A0E328E92CDB3E8000E5EEB3 /* IOSInterViewAppUITests */,
@@ -137,6 +140,21 @@
 				A0E328EC2CDB3E8000E5EEB3 /* IOSInterViewAppUITestsLaunchTests.m */,
 			);
 			path = IOSInterViewAppUITests;
+			sourceTree = "<group>";
+		};
+		A0E328FA2CDB3F5100E5EEB3 /* IOS面试准备 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "IOS面试准备";
+			sourceTree = "<group>";
+		};
+		A0E328FC2CDB3F8E00E5EEB3 /* Git基础知识 */ = {
+			isa = PBXGroup;
+			children = (
+				A0E328FD2CDB3FBA00E5EEB3 /* git基础知识.md */,
+			);
+			path = "Git基础知识";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
