@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EE23BC1B-B9AF-4FB4-B486-D305C8116736"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5B8335E-9DCB-4D7D-9C28-26C924A5D927"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS&#x9762;&#x8bd5;&#x51c6;&#x5907;/&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;/MVC/MVCViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "-didTapAddButtonInCell:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "302B6255-CB26-4454-AD48-1AE61DF58869"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS&#x9762;&#x8bd5;&#x51c6;&#x5907;/&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;/MVC/MVCTableViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "-didTapAddButtonInCell:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "302B6255-CB26-4454-AD48-1AE61DF58869 - b45af1c7eaeb2a41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MVCTableViewCell didTapAddButtonInCell:]"
+                  moduleName = "IOSInterViewApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xushihao/Desktop/InterviewPrepartion/IOSInterViewApp/IOS%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/MVC/MVCTableViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "302B6255-CB26-4454-AD48-1AE61DF58869 - b45af1c7eaeb2a41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MVCTableViewCell didTapAddButtonInCell:]"
+                  moduleName = "IOSInterViewApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xushihao/Desktop/InterviewPrepartion/IOSInterViewApp/IOS%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/MVC/MVCTableViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DF2B415-1F43-49B3-A543-C8CF0AB37C30"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS&#x9762;&#x8bd5;&#x51c6;&#x5907;/&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;/MVC/MVCTableViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "-didTapAddButtonInCell:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

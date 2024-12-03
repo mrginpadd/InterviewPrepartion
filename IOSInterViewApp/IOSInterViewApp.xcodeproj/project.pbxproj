@@ -18,6 +18,11 @@
 		A0E328E12CDB3E8000E5EEB3 /* IOSInterViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E328E02CDB3E8000E5EEB3 /* IOSInterViewAppTests.m */; };
 		A0E328EB2CDB3E8000E5EEB3 /* IOSInterViewAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E328EA2CDB3E8000E5EEB3 /* IOSInterViewAppUITests.m */; };
 		A0E328ED2CDB3E8000E5EEB3 /* IOSInterViewAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E328EC2CDB3E8000E5EEB3 /* IOSInterViewAppUITestsLaunchTests.m */; };
+		A0E329012CFE8C2C00E5EEB3 /* MVCDemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E329002CFE8C2C00E5EEB3 /* MVCDemoModel.m */; };
+		A0E329052CFE8C5D00E5EEB3 /* MVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E329042CFE8C5D00E5EEB3 /* MVCViewController.m */; };
+		A0E3290E2CFE8DE200E5EEB3 /* MVCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E3290D2CFE8DE200E5EEB3 /* MVCTableViewCell.m */; };
+		A0E329172CFECAF400E5EEB3 /* iOS实际的MVC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0E329162CFECAF400E5EEB3 /* iOS实际的MVC.jpg */; };
+		A0E329192CFECB0C00E5EEB3 /* 传统的MVC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0E329182CFECB0C00E5EEB3 /* 传统的MVC.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,15 @@
 		A0E328EA2CDB3E8000E5EEB3 /* IOSInterViewAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSInterViewAppUITests.m; sourceTree = "<group>"; };
 		A0E328EC2CDB3E8000E5EEB3 /* IOSInterViewAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSInterViewAppUITestsLaunchTests.m; sourceTree = "<group>"; };
 		A0E328FD2CDB3FBA00E5EEB3 /* git基础知识.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "git基础知识.md"; sourceTree = "<group>"; };
+		A0E329002CFE8C2C00E5EEB3 /* MVCDemoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCDemoModel.m; sourceTree = "<group>"; };
+		A0E329022CFE8C4700E5EEB3 /* MVCDemoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCDemoModel.h; sourceTree = "<group>"; };
+		A0E329032CFE8C5D00E5EEB3 /* MVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCViewController.h; sourceTree = "<group>"; };
+		A0E329042CFE8C5D00E5EEB3 /* MVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCViewController.m; sourceTree = "<group>"; };
+		A0E3290C2CFE8DE200E5EEB3 /* MVCTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCTableViewCell.h; sourceTree = "<group>"; };
+		A0E3290D2CFE8DE200E5EEB3 /* MVCTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCTableViewCell.m; sourceTree = "<group>"; };
+		A0E329122CFEC33C00E5EEB3 /* MVC.readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MVC.readme.md; sourceTree = "<group>"; };
+		A0E329162CFECAF400E5EEB3 /* iOS实际的MVC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iOS实际的MVC.jpg"; sourceTree = "<group>"; };
+		A0E329182CFECB0C00E5EEB3 /* 传统的MVC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "传统的MVC.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +159,7 @@
 		A0E328FA2CDB3F5100E5EEB3 /* IOS面试准备 */ = {
 			isa = PBXGroup;
 			children = (
+				A0E328FE2CFE8BDF00E5EEB3 /* 设计模式 */,
 			);
 			path = "IOS面试准备";
 			sourceTree = "<group>";
@@ -155,6 +170,54 @@
 				A0E328FD2CDB3FBA00E5EEB3 /* git基础知识.md */,
 			);
 			path = "Git基础知识";
+			sourceTree = "<group>";
+		};
+		A0E328FE2CFE8BDF00E5EEB3 /* 设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A0E328FF2CFE8BEB00E5EEB3 /* MVC */,
+			);
+			path = "设计模式";
+			sourceTree = "<group>";
+		};
+		A0E328FF2CFE8BEB00E5EEB3 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				A0E329182CFECB0C00E5EEB3 /* 传统的MVC.jpg */,
+				A0E329162CFECAF400E5EEB3 /* iOS实际的MVC.jpg */,
+				A0E329152CFEC44200E5EEB3 /* Models */,
+				A0E329142CFEC43D00E5EEB3 /* Views */,
+				A0E329132CFEC43400E5EEB3 /* Controllers */,
+				A0E329122CFEC33C00E5EEB3 /* MVC.readme.md */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		A0E329132CFEC43400E5EEB3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0E329032CFE8C5D00E5EEB3 /* MVCViewController.h */,
+				A0E329042CFE8C5D00E5EEB3 /* MVCViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A0E329142CFEC43D00E5EEB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0E3290C2CFE8DE200E5EEB3 /* MVCTableViewCell.h */,
+				A0E3290D2CFE8DE200E5EEB3 /* MVCTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0E329152CFEC44200E5EEB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0E329002CFE8C2C00E5EEB3 /* MVCDemoModel.m */,
+				A0E329022CFE8C4700E5EEB3 /* MVCDemoModel.h */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +323,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E329172CFECAF400E5EEB3 /* iOS实际的MVC.jpg in Resources */,
+				A0E329192CFECB0C00E5EEB3 /* 传统的MVC.jpg in Resources */,
 				A0E328D42CDB3E7F00E5EEB3 /* LaunchScreen.storyboard in Resources */,
 				A0E328D12CDB3E7F00E5EEB3 /* Assets.xcassets in Resources */,
 				A0E328CC2CDB3E7F00E5EEB3 /* Main.storyboard in Resources */,
@@ -292,6 +357,9 @@
 				A0E328CF2CDB3E7F00E5EEB3 /* IOSInterViewApp.xcdatamodeld in Sources */,
 				A0E328C32CDB3E7F00E5EEB3 /* AppDelegate.m in Sources */,
 				A0E328C62CDB3E7F00E5EEB3 /* SceneDelegate.m in Sources */,
+				A0E3290E2CFE8DE200E5EEB3 /* MVCTableViewCell.m in Sources */,
+				A0E329012CFE8C2C00E5EEB3 /* MVCDemoModel.m in Sources */,
+				A0E329052CFE8C5D00E5EEB3 /* MVCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
