@@ -26,6 +26,10 @@
 		A0E329212CFEE88B00E5EEB3 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E329202CFEE88B00E5EEB3 /* UserModel.m */; };
 		A0E329252CFEEA7C00E5EEB3 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E329242CFEEA7C00E5EEB3 /* UserViewController.m */; };
 		A0E329282CFEECFE00E5EEB3 /* UserPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E329272CFEECFE00E5EEB3 /* UserPresenter.m */; };
+		A0E3292C2CFF08F400E5EEB3 /* MVPDemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E3292B2CFF08F400E5EEB3 /* MVPDemoModel.m */; };
+		A0E3292F2CFF09A200E5EEB3 /* MVPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E3292E2CFF09A200E5EEB3 /* MVPTableViewCell.m */; };
+		A0E329322CFF09C200E5EEB3 /* MVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E329312CFF09C200E5EEB3 /* MVPViewController.m */; };
+		A0E329352CFF09D900E5EEB3 /* MVPPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E329342CFF09D900E5EEB3 /* MVPPresenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +86,16 @@
 		A0E329262CFEECFE00E5EEB3 /* UserPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPresenter.h; sourceTree = "<group>"; };
 		A0E329272CFEECFE00E5EEB3 /* UserPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserPresenter.m; sourceTree = "<group>"; };
 		A0E329292CFEED6300E5EEB3 /* UserViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewProtocol.h; sourceTree = "<group>"; };
+		A0E3292A2CFF08F400E5EEB3 /* MVPDemoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPDemoModel.h; sourceTree = "<group>"; };
+		A0E3292B2CFF08F400E5EEB3 /* MVPDemoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPDemoModel.m; sourceTree = "<group>"; };
+		A0E3292D2CFF09A200E5EEB3 /* MVPTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPTableViewCell.h; sourceTree = "<group>"; };
+		A0E3292E2CFF09A200E5EEB3 /* MVPTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPTableViewCell.m; sourceTree = "<group>"; };
+		A0E329302CFF09C200E5EEB3 /* MVPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPViewController.h; sourceTree = "<group>"; };
+		A0E329312CFF09C200E5EEB3 /* MVPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPViewController.m; sourceTree = "<group>"; };
+		A0E329332CFF09D900E5EEB3 /* MVPPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPPresenter.h; sourceTree = "<group>"; };
+		A0E329342CFF09D900E5EEB3 /* MVPPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPPresenter.m; sourceTree = "<group>"; };
+		A0E329362CFF0EF300E5EEB3 /* MVPTableViewCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPTableViewCellProtocol.h; sourceTree = "<group>"; };
+		A0E329372CFF20EA00E5EEB3 /* MVPViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPViewProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +262,8 @@
 			children = (
 				A0E3291F2CFEE88B00E5EEB3 /* UserModel.h */,
 				A0E329202CFEE88B00E5EEB3 /* UserModel.m */,
+				A0E3292A2CFF08F400E5EEB3 /* MVPDemoModel.h */,
+				A0E3292B2CFF08F400E5EEB3 /* MVPDemoModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -257,6 +273,8 @@
 			children = (
 				A0E329262CFEECFE00E5EEB3 /* UserPresenter.h */,
 				A0E329272CFEECFE00E5EEB3 /* UserPresenter.m */,
+				A0E329332CFF09D900E5EEB3 /* MVPPresenter.h */,
+				A0E329342CFF09D900E5EEB3 /* MVPPresenter.m */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
@@ -267,6 +285,12 @@
 				A0E329232CFEEA7C00E5EEB3 /* UserViewController.h */,
 				A0E329242CFEEA7C00E5EEB3 /* UserViewController.m */,
 				A0E329292CFEED6300E5EEB3 /* UserViewProtocol.h */,
+				A0E3292D2CFF09A200E5EEB3 /* MVPTableViewCell.h */,
+				A0E3292E2CFF09A200E5EEB3 /* MVPTableViewCell.m */,
+				A0E329302CFF09C200E5EEB3 /* MVPViewController.h */,
+				A0E329312CFF09C200E5EEB3 /* MVPViewController.m */,
+				A0E329362CFF0EF300E5EEB3 /* MVPTableViewCellProtocol.h */,
+				A0E329372CFF20EA00E5EEB3 /* MVPViewProtocol.h */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -409,9 +433,13 @@
 				A0E328C92CDB3E7F00E5EEB3 /* ViewController.m in Sources */,
 				A0E328CF2CDB3E7F00E5EEB3 /* IOSInterViewApp.xcdatamodeld in Sources */,
 				A0E328C32CDB3E7F00E5EEB3 /* AppDelegate.m in Sources */,
+				A0E329322CFF09C200E5EEB3 /* MVPViewController.m in Sources */,
+				A0E3292C2CFF08F400E5EEB3 /* MVPDemoModel.m in Sources */,
 				A0E328C62CDB3E7F00E5EEB3 /* SceneDelegate.m in Sources */,
 				A0E3290E2CFE8DE200E5EEB3 /* MVCTableViewCell.m in Sources */,
+				A0E3292F2CFF09A200E5EEB3 /* MVPTableViewCell.m in Sources */,
 				A0E329012CFE8C2C00E5EEB3 /* MVCDemoModel.m in Sources */,
+				A0E329352CFF09D900E5EEB3 /* MVPPresenter.m in Sources */,
 				A0E329052CFE8C5D00E5EEB3 /* MVCViewController.m in Sources */,
 				A0E329212CFEE88B00E5EEB3 /* UserModel.m in Sources */,
 			);

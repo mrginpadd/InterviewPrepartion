@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "MVCViewController.h"
 #import "UserViewController.h"
+#import "MVPViewController.h"
 @interface ViewController ()
 
 @end
@@ -26,8 +27,8 @@
 }
 
 - (void)jumpToPage {
-    UserViewController *vc = [[UserViewController alloc] init];
-
+//    UserViewController *vc = [[UserViewController alloc] init];
+    MVPViewController *vc = [[MVPViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
