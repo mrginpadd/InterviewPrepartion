@@ -23,6 +23,9 @@
 		A0E3290E2CFE8DE200E5EEB3 /* MVCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E3290D2CFE8DE200E5EEB3 /* MVCTableViewCell.m */; };
 		A0E329172CFECAF400E5EEB3 /* iOS实际的MVC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0E329162CFECAF400E5EEB3 /* iOS实际的MVC.jpg */; };
 		A0E329192CFECB0C00E5EEB3 /* 传统的MVC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0E329182CFECB0C00E5EEB3 /* 传统的MVC.jpg */; };
+		A0E329212CFEE88B00E5EEB3 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E329202CFEE88B00E5EEB3 /* UserModel.m */; };
+		A0E329252CFEEA7C00E5EEB3 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E329242CFEEA7C00E5EEB3 /* UserViewController.m */; };
+		A0E329282CFEECFE00E5EEB3 /* UserPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E329272CFEECFE00E5EEB3 /* UserPresenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,14 @@
 		A0E329122CFEC33C00E5EEB3 /* MVC.readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MVC.readme.md; sourceTree = "<group>"; };
 		A0E329162CFECAF400E5EEB3 /* iOS实际的MVC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iOS实际的MVC.jpg"; sourceTree = "<group>"; };
 		A0E329182CFECB0C00E5EEB3 /* 传统的MVC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "传统的MVC.jpg"; sourceTree = "<group>"; };
+		A0E3291B2CFECF5F00E5EEB3 /* MVP.readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MVP.readme.md; sourceTree = "<group>"; };
+		A0E3291F2CFEE88B00E5EEB3 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		A0E329202CFEE88B00E5EEB3 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		A0E329232CFEEA7C00E5EEB3 /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		A0E329242CFEEA7C00E5EEB3 /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		A0E329262CFEECFE00E5EEB3 /* UserPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPresenter.h; sourceTree = "<group>"; };
+		A0E329272CFEECFE00E5EEB3 /* UserPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserPresenter.m; sourceTree = "<group>"; };
+		A0E329292CFEED6300E5EEB3 /* UserViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +186,7 @@
 		A0E328FE2CFE8BDF00E5EEB3 /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A0E3291A2CFECB6200E5EEB3 /* MVP */,
 				A0E328FF2CFE8BEB00E5EEB3 /* MVC */,
 			);
 			path = "设计模式";
@@ -218,6 +230,45 @@
 				A0E329022CFE8C4700E5EEB3 /* MVCDemoModel.h */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A0E3291A2CFECB6200E5EEB3 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				A0E329222CFEE9AD00E5EEB3 /* Views */,
+				A0E3291E2CFEE85800E5EEB3 /* Presenters */,
+				A0E3291D2CFEE85100E5EEB3 /* Models */,
+				A0E3291B2CFECF5F00E5EEB3 /* MVP.readme.md */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		A0E3291D2CFEE85100E5EEB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0E3291F2CFEE88B00E5EEB3 /* UserModel.h */,
+				A0E329202CFEE88B00E5EEB3 /* UserModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A0E3291E2CFEE85800E5EEB3 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				A0E329262CFEECFE00E5EEB3 /* UserPresenter.h */,
+				A0E329272CFEECFE00E5EEB3 /* UserPresenter.m */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		A0E329222CFEE9AD00E5EEB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0E329232CFEEA7C00E5EEB3 /* UserViewController.h */,
+				A0E329242CFEEA7C00E5EEB3 /* UserViewController.m */,
+				A0E329292CFEED6300E5EEB3 /* UserViewProtocol.h */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +404,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E328D72CDB3E7F00E5EEB3 /* main.m in Sources */,
+				A0E329282CFEECFE00E5EEB3 /* UserPresenter.m in Sources */,
+				A0E329252CFEEA7C00E5EEB3 /* UserViewController.m in Sources */,
 				A0E328C92CDB3E7F00E5EEB3 /* ViewController.m in Sources */,
 				A0E328CF2CDB3E7F00E5EEB3 /* IOSInterViewApp.xcdatamodeld in Sources */,
 				A0E328C32CDB3E7F00E5EEB3 /* AppDelegate.m in Sources */,
@@ -360,6 +413,7 @@
 				A0E3290E2CFE8DE200E5EEB3 /* MVCTableViewCell.m in Sources */,
 				A0E329012CFE8C2C00E5EEB3 /* MVCDemoModel.m in Sources */,
 				A0E329052CFE8C5D00E5EEB3 /* MVCViewController.m in Sources */,
+				A0E329212CFEE88B00E5EEB3 /* UserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
