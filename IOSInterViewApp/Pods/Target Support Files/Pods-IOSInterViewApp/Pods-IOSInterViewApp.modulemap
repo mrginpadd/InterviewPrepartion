@@ -1,0 +1,6 @@
+framework module Pods_IOSInterViewApp {
+  umbrella header "Pods-IOSInterViewApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
