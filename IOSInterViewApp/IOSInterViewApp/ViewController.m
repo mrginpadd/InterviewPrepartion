@@ -11,6 +11,7 @@
 #import "MVPViewController.h"
 #import "IOSInterViewApp-Swift.h"
 #import "IOSInterViewApp-Bridging-Header.h"
+#import "SettingViewController.h"
 @interface ViewController ()
 
 @end
@@ -30,10 +31,12 @@
 
 - (void)jumpToPage {
 //    UserViewController *vc = [[UserViewController alloc] init];
-    MVVMViewController *vc = [[MVVMViewController alloc] init];
+//    MVVMViewController *vc = [[MVVMViewController alloc] init];
 //    MVPViewController *vc = [[MVPViewController alloc] init];
 //    MVVM
 //    MVVMViewController *vc = MVVMViewController i
+    
+    SettingViewController *vc = [[SettingViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

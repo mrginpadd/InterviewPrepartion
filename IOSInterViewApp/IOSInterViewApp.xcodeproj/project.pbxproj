@@ -10,6 +10,18 @@
 		1BD6BD7ACEDFEC85DE40B8D1 /* Pods_IOSInterViewAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC24444137D6840904CAC182 /* Pods_IOSInterViewAppTests.framework */; };
 		3A69E490DEF869126A130EBE /* Pods_IOSInterViewApp_IOSInterViewAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7975D77B3A745405472C85 /* Pods_IOSInterViewApp_IOSInterViewAppUITests.framework */; };
 		3C245C8D97EBD1653933CE09 /* Pods_IOSInterViewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612DFBC6B817295A6B9D6A16 /* Pods_IOSInterViewApp.framework */; };
+		A0CCF2FA2D10123200DFB320 /* C.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CCF2F72D10123200DFB320 /* C.jpg */; };
+		A0CCF2FB2D10123200DFB320 /* B.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CCF2F82D10123200DFB320 /* B.jpg */; };
+		A0CCF2FC2D10123200DFB320 /* A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CCF2F92D10123200DFB320 /* A.jpg */; };
+		A0CCF3052D10134E00DFB320 /* MVCAvatarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CCF3042D10134E00DFB320 /* MVCAvatarCell.m */; };
+		A0CCF3082D10137500DFB320 /* MVCAvatarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CCF3072D10137500DFB320 /* MVCAvatarModel.m */; };
+		A0CCF30B2D102ED100DFB320 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CCF30A2D102ED100DFB320 /* SettingViewController.m */; };
+		A0CCF3102D1121BD00DFB320 /* MVCSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CCF30F2D1121BD00DFB320 /* MVCSwitchCell.m */; };
+		A0CCF3132D1121D100DFB320 /* MVCSwitchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CCF3122D1121D100DFB320 /* MVCSwitchModel.m */; };
+		A0CCF3162D115ACD00DFB320 /* MVCNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CCF3152D115ACD00DFB320 /* MVCNormalCell.m */; };
+		A0CCF3192D115AE300DFB320 /* MVCNormalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CCF3182D115AE300DFB320 /* MVCNormalModel.m */; };
+		A0CCF31C2D11619200DFB320 /* MVCExitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CCF31B2D11619200DFB320 /* MVCExitCell.m */; };
+		A0CCF31F2D11621100DFB320 /* MVCExitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CCF31E2D11621100DFB320 /* MVCExitModel.m */; };
 		A0E328C32CDB3E7F00E5EEB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E328C22CDB3E7F00E5EEB3 /* AppDelegate.m */; };
 		A0E328C62CDB3E7F00E5EEB3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E328C52CDB3E7F00E5EEB3 /* SceneDelegate.m */; };
 		A0E328C92CDB3E7F00E5EEB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E328C82CDB3E7F00E5EEB3 /* ViewController.m */; };
@@ -66,6 +78,27 @@
 		60C635713E529540CFAA4AD1 /* Pods-IOSInterViewAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSInterViewAppTests.release.xcconfig"; path = "Target Support Files/Pods-IOSInterViewAppTests/Pods-IOSInterViewAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		612DFBC6B817295A6B9D6A16 /* Pods_IOSInterViewApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSInterViewApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7975D77B3A745405472C85 /* Pods_IOSInterViewApp_IOSInterViewAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSInterViewApp_IOSInterViewAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CCF2F72D10123200DFB320 /* C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = C.jpg; sourceTree = "<group>"; };
+		A0CCF2F82D10123200DFB320 /* B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = B.jpg; sourceTree = "<group>"; };
+		A0CCF2F92D10123200DFB320 /* A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = A.jpg; sourceTree = "<group>"; };
+		A0CCF3032D10134E00DFB320 /* MVCAvatarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCAvatarCell.h; sourceTree = "<group>"; };
+		A0CCF3042D10134E00DFB320 /* MVCAvatarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCAvatarCell.m; sourceTree = "<group>"; };
+		A0CCF3062D10137500DFB320 /* MVCAvatarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCAvatarModel.h; sourceTree = "<group>"; };
+		A0CCF3072D10137500DFB320 /* MVCAvatarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCAvatarModel.m; sourceTree = "<group>"; };
+		A0CCF3092D102ED100DFB320 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		A0CCF30A2D102ED100DFB320 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		A0CCF30E2D1121BD00DFB320 /* MVCSwitchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCSwitchCell.h; sourceTree = "<group>"; };
+		A0CCF30F2D1121BD00DFB320 /* MVCSwitchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCSwitchCell.m; sourceTree = "<group>"; };
+		A0CCF3112D1121D100DFB320 /* MVCSwitchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCSwitchModel.h; sourceTree = "<group>"; };
+		A0CCF3122D1121D100DFB320 /* MVCSwitchModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCSwitchModel.m; sourceTree = "<group>"; };
+		A0CCF3142D115ACD00DFB320 /* MVCNormalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCNormalCell.h; sourceTree = "<group>"; };
+		A0CCF3152D115ACD00DFB320 /* MVCNormalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCNormalCell.m; sourceTree = "<group>"; };
+		A0CCF3172D115AE300DFB320 /* MVCNormalModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCNormalModel.h; sourceTree = "<group>"; };
+		A0CCF3182D115AE300DFB320 /* MVCNormalModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCNormalModel.m; sourceTree = "<group>"; };
+		A0CCF31A2D11619200DFB320 /* MVCExitCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCExitCell.h; sourceTree = "<group>"; };
+		A0CCF31B2D11619200DFB320 /* MVCExitCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCExitCell.m; sourceTree = "<group>"; };
+		A0CCF31D2D11621100DFB320 /* MVCExitModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCExitModel.h; sourceTree = "<group>"; };
+		A0CCF31E2D11621100DFB320 /* MVCExitModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCExitModel.m; sourceTree = "<group>"; };
 		A0E328BE2CDB3E7F00E5EEB3 /* IOSInterViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSInterViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E328C12CDB3E7F00E5EEB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0E328C22CDB3E7F00E5EEB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -162,6 +195,74 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A0CCF2F62D10121300DFB320 /* 设置页 */ = {
+			isa = PBXGroup;
+			children = (
+				A0CCF2FE2D10128E00DFB320 /* MVP设置页 */,
+				A0CCF2FD2D10127E00DFB320 /* MVC设置页 */,
+				A0CCF2F92D10123200DFB320 /* A.jpg */,
+				A0CCF2F82D10123200DFB320 /* B.jpg */,
+				A0CCF2F72D10123200DFB320 /* C.jpg */,
+			);
+			path = "设置页";
+			sourceTree = "<group>";
+		};
+		A0CCF2FD2D10127E00DFB320 /* MVC设置页 */ = {
+			isa = PBXGroup;
+			children = (
+				A0CCF3012D10130700DFB320 /* Controllers */,
+				A0CCF3002D10130200DFB320 /* Views */,
+				A0CCF2FF2D1012F800DFB320 /* Models */,
+			);
+			path = "MVC设置页";
+			sourceTree = "<group>";
+		};
+		A0CCF2FE2D10128E00DFB320 /* MVP设置页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MVP设置页";
+			sourceTree = "<group>";
+		};
+		A0CCF2FF2D1012F800DFB320 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0CCF3062D10137500DFB320 /* MVCAvatarModel.h */,
+				A0CCF3072D10137500DFB320 /* MVCAvatarModel.m */,
+				A0CCF3112D1121D100DFB320 /* MVCSwitchModel.h */,
+				A0CCF3122D1121D100DFB320 /* MVCSwitchModel.m */,
+				A0CCF3172D115AE300DFB320 /* MVCNormalModel.h */,
+				A0CCF3182D115AE300DFB320 /* MVCNormalModel.m */,
+				A0CCF31D2D11621100DFB320 /* MVCExitModel.h */,
+				A0CCF31E2D11621100DFB320 /* MVCExitModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A0CCF3002D10130200DFB320 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0CCF3032D10134E00DFB320 /* MVCAvatarCell.h */,
+				A0CCF3042D10134E00DFB320 /* MVCAvatarCell.m */,
+				A0CCF30E2D1121BD00DFB320 /* MVCSwitchCell.h */,
+				A0CCF30F2D1121BD00DFB320 /* MVCSwitchCell.m */,
+				A0CCF3142D115ACD00DFB320 /* MVCNormalCell.h */,
+				A0CCF3152D115ACD00DFB320 /* MVCNormalCell.m */,
+				A0CCF31A2D11619200DFB320 /* MVCExitCell.h */,
+				A0CCF31B2D11619200DFB320 /* MVCExitCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0CCF3012D10130700DFB320 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0CCF3092D102ED100DFB320 /* SettingViewController.h */,
+				A0CCF30A2D102ED100DFB320 /* SettingViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		A0E328B52CDB3E7F00E5EEB3 = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +329,7 @@
 		A0E328FA2CDB3F5100E5EEB3 /* IOS面试准备 */ = {
 			isa = PBXGroup;
 			children = (
+				A0CCF2F62D10121300DFB320 /* 设置页 */,
 				A0E328FE2CFE8BDF00E5EEB3 /* 设计模式 */,
 			);
 			path = "IOS面试准备";
@@ -474,13 +576,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0CCF2FB2D10123200DFB320 /* B.jpg in Resources */,
 				A0E329412D014EE800E5EEB3 /* Podfile in Resources */,
 				A0E329172CFECAF400E5EEB3 /* iOS实际的MVC.jpg in Resources */,
 				A0E329192CFECB0C00E5EEB3 /* 传统的MVC.jpg in Resources */,
 				A0E329572D01AEB400E5EEB3 /* MVVM.jpg in Resources */,
 				A0E328D42CDB3E7F00E5EEB3 /* LaunchScreen.storyboard in Resources */,
 				A0E328D12CDB3E7F00E5EEB3 /* Assets.xcassets in Resources */,
+				A0CCF2FC2D10123200DFB320 /* A.jpg in Resources */,
 				A0E328CC2CDB3E7F00E5EEB3 /* Main.storyboard in Resources */,
+				A0CCF2FA2D10123200DFB320 /* C.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,21 +714,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E328D72CDB3E7F00E5EEB3 /* main.m in Sources */,
+				A0CCF3162D115ACD00DFB320 /* MVCNormalCell.m in Sources */,
 				A0E329282CFEECFE00E5EEB3 /* UserPresenter.m in Sources */,
 				A0E329252CFEEA7C00E5EEB3 /* UserViewController.m in Sources */,
+				A0CCF3052D10134E00DFB320 /* MVCAvatarCell.m in Sources */,
 				A0E328C92CDB3E7F00E5EEB3 /* ViewController.m in Sources */,
 				A0E328CF2CDB3E7F00E5EEB3 /* IOSInterViewApp.xcdatamodeld in Sources */,
 				A0E329552D019D3F00E5EEB3 /* MVVMViewController.swift in Sources */,
+				A0CCF31C2D11619200DFB320 /* MVCExitCell.m in Sources */,
 				A0E328C32CDB3E7F00E5EEB3 /* AppDelegate.m in Sources */,
 				A0E329322CFF09C200E5EEB3 /* MVPViewController.m in Sources */,
+				A0CCF30B2D102ED100DFB320 /* SettingViewController.m in Sources */,
 				A0E3292C2CFF08F400E5EEB3 /* MVPDemoModel.m in Sources */,
 				A0E328C62CDB3E7F00E5EEB3 /* SceneDelegate.m in Sources */,
+				A0CCF3192D115AE300DFB320 /* MVCNormalModel.m in Sources */,
 				A0E3290E2CFE8DE200E5EEB3 /* MVCTableViewCell.m in Sources */,
 				A0E329532D0199D100E5EEB3 /* MVVMViewModel.swift in Sources */,
 				A0E3292F2CFF09A200E5EEB3 /* MVPTableViewCell.m in Sources */,
+				A0CCF31F2D11621100DFB320 /* MVCExitModel.m in Sources */,
 				A0E329012CFE8C2C00E5EEB3 /* MVCDemoModel.m in Sources */,
+				A0CCF3102D1121BD00DFB320 /* MVCSwitchCell.m in Sources */,
+				A0CCF3082D10137500DFB320 /* MVCAvatarModel.m in Sources */,
 				A0E3294A2D0169B900E5EEB3 /* test.swift in Sources */,
 				A0E329352CFF09D900E5EEB3 /* MVPPresenter.m in Sources */,
+				A0CCF3132D1121D100DFB320 /* MVCSwitchModel.m in Sources */,
 				A0E329512D01989F00E5EEB3 /* MVVMUserModel.swift in Sources */,
 				A0E329052CFE8C5D00E5EEB3 /* MVCViewController.m in Sources */,
 				A0E329212CFEE88B00E5EEB3 /* UserModel.m in Sources */,

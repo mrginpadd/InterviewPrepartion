@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A8439EBA-6AA6-48BD-A5DF-0769FD944B0E"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91591FF8-28DD-4F44-AD5F-9FB60DB200FB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS&#x9762;&#x8bd5;&#x51c6;&#x5907;/&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;/MVP/Views/MVPViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "91591FF8-28DD-4F44-AD5F-9FB60DB200FB - fc316839ce3ed5fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MVPViewController viewDidLoad]"
+                  moduleName = "IOSInterViewApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xushihao/Desktop/InterviewPrepartion/IOSInterViewApp/IOS%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/MVP/Views/MVPViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "91591FF8-28DD-4F44-AD5F-9FB60DB200FB - fc316839ce3ed5d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MVPViewController viewDidLoad]"
+                  moduleName = "IOSInterViewApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xushihao/Desktop/InterviewPrepartion/IOSInterViewApp/IOS%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/MVP/Views/MVPViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "540">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F5510D5-81ED-4560-B365-812585BD4ED1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOSInterViewApp/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ViewController()"
+            landmarkType = "2">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "829A92FC-E6E6-4556-83EB-D23BBFE7E283"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS&#x9762;&#x8bd5;&#x51c6;&#x5907;/&#x8bbe;&#x7f6e;&#x9875;/MVC&#x8bbe;&#x7f6e;&#x9875;/Controllers/SettingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE0E8B35-9A80-43A2-B268-75EDFF95018A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS&#x9762;&#x8bd5;&#x51c6;&#x5907;/&#x8bbe;&#x7f6e;&#x9875;/MVC&#x8bbe;&#x7f6e;&#x9875;/Controllers/SettingViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-switchChange:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FE0E8B35-9A80-43A2-B268-75EDFF95018A - 9d2aa33f14b47423"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SettingViewController switchChange:]"
+                  moduleName = "IOSInterViewApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xushihao/Desktop/InterviewPrepartion/IOSInterViewApp/IOS%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E8%AE%BE%E7%BD%AE%E9%A1%B5/MVC%E8%AE%BE%E7%BD%AE%E9%A1%B5/Controllers/SettingViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "FE0E8B35-9A80-43A2-B268-75EDFF95018A - 9d2aa33f14b44ace"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SettingViewController switchChange:]"
+                  moduleName = "IOSInterViewApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xushihao/Desktop/InterviewPrepartion/IOSInterViewApp/IOS%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/%E8%AE%BE%E7%BD%AE%E9%A1%B5/MVC%E8%AE%BE%E7%BD%AE%E9%A1%B5/Controllers/SettingViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1219D79D-F065-434C-9911-4CC058528BEE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS&#x9762;&#x8bd5;&#x51c6;&#x5907;/&#x8bbe;&#x7f6e;&#x9875;/MVC&#x8bbe;&#x7f6e;&#x9875;/Views/MVCSwitchCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "-switchChange:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F686E69-FAAA-4F3E-9903-D8551B8A949B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS&#x9762;&#x8bd5;&#x51c6;&#x5907;/&#x8bbe;&#x7f6e;&#x9875;/MVC&#x8bbe;&#x7f6e;&#x9875;/Views/MVCSwitchCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "-switchChange:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C4A7854-70D0-41AF-942B-00371D6FC171"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS&#x9762;&#x8bd5;&#x51c6;&#x5907;/&#x8bbe;&#x7f6e;&#x9875;/MVC&#x8bbe;&#x7f6e;&#x9875;/Views/MVCExitCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "-setDataSource:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
